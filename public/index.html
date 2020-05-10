@@ -31,6 +31,31 @@
 
       <button>create session</button>
     </div>
+    <div>
+        <!-- 
+        New features:
+            - Select a custom wordset
+            - Hide from active sessions
+            - Timed mode
+        -->
+        <div>
+            <label for="word-set">Select a word set</label>
+            <select id="word-set">
+                <option value="test">Test</option>
+            </select>
+        </div>
+        <div>
+            <label for="hide-game">Hide Game from Active Sessions</label>
+            <input type="checkbox" id="hide-game" />
+        </div>
+        <div>
+            <input type="text" id="time-input" placeholder="Turn time in seconds"/>
+            <input type="checkbox" id="timed-game" />
+        </div>
+    </div>
+    <p>
+    Active Sessions
+    </p>
     <div class="active-sessions">
 
     </div>
